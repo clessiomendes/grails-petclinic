@@ -1,5 +1,9 @@
 {
+  "build": {
+    "type": "gradle",
+    "goal": "assemble"
+  },
     "deploy": {
-        "goal": "grails:run"
+        "goal": "bootRun"
     }
 }
